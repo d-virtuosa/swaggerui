@@ -1,12 +1,12 @@
 ---
 openapi: 3.0.1
 info:
-  title: Afine Api
+  title: Swagger Api
   version: '1.0'
 paths:
-  "/path/malformed/by/afine":
+  "/path/malformed/by/dvirtuosa":
     post:
       tags:
-      - afine
+      - test
       parameters:
-      - name: afine
+      - name: test
