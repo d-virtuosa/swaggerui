@@ -16,7 +16,7 @@ consumes:
 security:
 - basicAuth: []
 paths:
-  "/afine":
+  "/pentest":
     get:
       responses:
         '200':
