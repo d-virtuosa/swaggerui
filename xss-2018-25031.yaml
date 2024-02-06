@@ -4,7 +4,7 @@ info:
   title: Swagger Api
   version: '1.0'
 paths:
-  "/path/malformed/by/dvirtuosa":
+  "/path/malformed/by/pentest":
     post:
       tags:
       - test
