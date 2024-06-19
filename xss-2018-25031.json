@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/d-virtuosa/swaggerui/main/XSS.yaml",
+    "url": "https://raw.githubusercontent.com/d-virtuosa/swaggerui/main/DOMXSS.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/d-virtuosa/swaggerui/main/XSS.yaml",
+            "url": "https://raw.githubusercontent.com/d-virtuosa/swaggerui/main/DOMXSS.yaml",
             "name": "pentest"
         }
     ]
